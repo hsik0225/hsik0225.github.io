@@ -8,20 +8,20 @@ categories :
   - title : "BAEK-END"
     children :
       - title : "Spring"
-        url : "/categories/spring/"
+        url : "/categories/#spring/"
 
   - title : "PROGRAMMING"
     children :
       - title : "Java"
-        url : "/categories/java/"
+        url : "/categories/#java/"
       
       - title : "Data Structure"
-        url : "/categories/structure/"
+        url : "/categories/#structure/"
 
       - title : "Algorithm"
-        url : "/categories/algorithm/"
+        url : "/categories/#algorithm/"
 
   - title : "DIARY"
     children :
       - title : "Diary"
-        url : "/categories/diary/"
+        url : "/categories/#diary/"
