@@ -1,4 +1,27 @@
 # main links
-main:
-        - title : "Home"
-          url : "https://hsik0225.github.io/"
+main :
+  - title : "Home"
+    url : "https://hsik0225.github.io/"
+
+
+categories :
+  - title : "BAEK-END"
+    children :
+      - title : "Spring"
+        url : "/categories/spring/"
+
+  - title : "PROGRAMMING"
+    children :
+      - title : "Java"
+        url : "/categories/java/"
+      
+      - title : "Data Structure"
+        url : "/categories/structure/"
+
+      - title : "Algorithm"
+        url : "/categories/algorithm/"
+
+  - title : "DIARY"
+    children :
+      - title : "Diary"
+        url : "/categories/diary/"
