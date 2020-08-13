@@ -287,9 +287,10 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      sidebar :
-        title : Categories
-        nav : "categories"
+      show_date: true
+      sidebar:
+        title: Categories
+        nav: "categories"
       comments: true
       share: true
       related: true
@@ -304,6 +305,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
+      show_date: true
       sidebar :
         title : Categories
         nav : "categories"
