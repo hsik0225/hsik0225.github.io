@@ -12,22 +12,29 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
+# 사이트의 언어 설정을 할 수 있습니다
+locale                   : "ko-KR"
+
+# 블로그 제목
+title                    : "여러가지 해보고 싶은 개발자의 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Kim HyeonSik"
+description              : "새로운 것을 배우는 것을 좋아합니다"
+
+# 사이트의 주소를 입력합니다
+url                      : "https://hsik0225.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
+
+# ream time을 계산하기 위한 분당 읽는 글자수
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -93,10 +100,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Kim HyeonSik"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "프로그래밍 공부 블로그"
+  location         : "Republic of Korea"
   email            :
   links:
     - label: "Email"
@@ -265,7 +272,9 @@ compress_html:
   ignore:
     envs: development
 
-
+# Front Matter 설정입니다
+# 페이지 본문에 적용되는 기본 설정들을 정의합니다
+# path 값으로 경로를 설정해 줍니다
 # Defaults
 defaults:
   # _posts
