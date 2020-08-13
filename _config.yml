@@ -274,6 +274,9 @@ compress_html:
   ignore:
     envs: development
 
+# Site Search
+search : true
+
 # Front Matter 설정입니다
 # 페이지 본문에 적용되는 기본 설정들을 정의합니다
 # path 값으로 경로를 설정해 줍니다
