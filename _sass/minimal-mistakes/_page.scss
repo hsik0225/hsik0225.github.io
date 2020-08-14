@@ -84,7 +84,7 @@ body {
 
 .page__content {
   h2 {
-    padding-bottom: 0.5em;
+    padding-bottom: 0.5em; // H2로 쓴 글씨와 글씨 아래 생기는 수평선 사이의 간격
     border-bottom: 1px solid $border-color;
   }
 
@@ -92,7 +92,7 @@ body {
 		.header-link {
 			position: relative;
 			left: 0.5em;
-			opacity: 0;
+			opacity: 0; // 투명도
 			font-size: 0.8em;
 			-webkit-transition: opacity 0.2s ease-in-out 0.1s;
 			-moz-transition: opacity 0.2s ease-in-out 0.1s;
