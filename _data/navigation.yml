@@ -8,7 +8,7 @@ categories :
   - title : "SPRING"
     children :
       - title : "Spring Framework"
-        url : "/categories/#spring\ framework/"
+        url : "/categories/#spring-framework/"
 
   - title : "PROGRAMMING"
     children :
