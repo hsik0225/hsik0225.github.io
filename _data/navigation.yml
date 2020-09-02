@@ -5,10 +5,10 @@ main :
 
 
 categories :
-  - title : "BAEK-END"
+  - title : "SPRING"
     children :
-      - title : "Spring"
-        url : "/categories/#spring/"
+      - title : "Spring Framework"
+        url : "/categories/#spring\ framework/"
 
   - title : "PROGRAMMING"
     children :
