@@ -8,20 +8,20 @@ categories :
   - title : "SPRING"
     children :
       - title : "Spring Framework"
-        url : "/categories/#spring-framework/"
+        url : "/categories/#spring-framework"
 
   - title : "PROGRAMMING"
     children :
       - title : "Java"
-        url : "/categories/#java/"
+        url : "/categories/#java"
       
       - title : "Data Structure"
-        url : "/categories/#structure/"
+        url : "/categories/#structure"
 
       - title : "Algorithm"
-        url : "/categories/#algorithm/"
+        url : "/categories/#algorithm"
 
   - title : "DIARY"
     children :
       - title : "Diary"
-        url : "/categories/#diary/"
+        url : "/categories/#diary"
