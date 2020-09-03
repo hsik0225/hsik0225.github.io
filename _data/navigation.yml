@@ -10,16 +10,10 @@ categories :
       - title : "Spring Framework"
         url : "/categories/#spring-framework"
 
-  - title : "PROGRAMMING"
+  - title : "PROJECT"
     children :
-      - title : "Java"
-        url : "/categories/#java"
-      
-      - title : "Data Structure"
-        url : "/categories/#structure"
-
-      - title : "Algorithm"
-        url : "/categories/#algorithm"
+      - title : "HAT"
+        url : "/categories/#hat
 
   - title : "DIARY"
     children :
