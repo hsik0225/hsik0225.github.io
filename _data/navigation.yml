@@ -13,7 +13,7 @@ categories :
   - title : "PROJECT"
     children :
       - title : "HAT"
-        url : "/categories/#hat
+        url : "/categories/#hat"
 
   - title : "DIARY"
     children :
