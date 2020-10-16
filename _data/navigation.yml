@@ -12,6 +12,8 @@ categories :
 
   - title : "PROJECT"
     children :
+      - title : "HAT"
+        url : "/categories/#hat"
       - title : "Katalk"
         url : "/categories/#katalk"
 
