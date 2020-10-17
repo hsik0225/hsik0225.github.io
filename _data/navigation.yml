@@ -9,6 +9,8 @@ categories :
     children :
       - title : "Spring Framework"
         url : "/categories/#spring-framework"
+      - title : "Spring REST Docs"
+        url : "/categories/#spring-rest-docs"
 
   - title : "PROJECT"
     children :
