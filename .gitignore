@@ -18,6 +18,12 @@ npm-debug.log*
 package-lock.json
 codekit-config.json
 
+# checkstyle
+.idea/checkstyle-idea.xml
+
+# aws
+.idea/aws.xml
+
 # macOS
 .DS_Store
 
