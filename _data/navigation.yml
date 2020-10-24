@@ -18,8 +18,3 @@ categories :
         url : "/categories/#hat"
       - title : "Katalk"
         url : "/categories/#katalk"
-
-  - title : "DIARY"
-    children :
-      - title : "Diary"
-        url : "/categories/#diary"
