@@ -17,13 +17,14 @@ String password
 
 다음의 제약 조건을 Spring REST Docs로 ConstraintDescription을 달아보면 다음과 같이 출력됩니다.
 
-**Must match the regular expression `^(?=.*[0-9])(?=.*[a-z])[a-zA-Z0-9]*$`.**
+![요청 1](https://user-images.githubusercontent.com/56301069/97087760-619c2e00-1667-11eb-9bd7-df075faff1d9.png)
 
-하지만 이것은 API 문서를 보는 입장에서 어떻게 입력해야 하는지 잘 모릅니다. 그래서 기본 출력 메세지를 
+
+하지만 이것은 API 문서를 보는 입장에서 어떻게 입력해야 하는지 잘 모릅니다. 그래서 출력 메세지에 
 
 **소문자 영어, 숫자가 1번씩 포함되어야 하며 비밀번호는 대/소문자, 숫자만이 가능합니다**
 
-로 API를 보는 사람이 쉽게 알 수 있도록 변경하고 싶었습니다.
+를 추가하여 API를 보는 사람이 쉽게 알 수 있도록 변경하고 싶었습니다.
 
 ## 해결 과정
 
@@ -33,18 +34,17 @@ String password
 @Pattern(message = "소문자 영어, 숫자가 1번씩 포함되어야 하며 비밀번호는 대/소문자, 숫자만이 가능합니다")
 ```
 
-`message` 옵션을 주게 되면 validation이 실패했을 때 해당 문구로 바꾸어 출력한다. 이 message의 기본 값은`{javax.validation.constraints.Pattern.message}` 에 설정되어 있는 값 입니다.
+`message` 옵션을 주게 되면 validation이 실패했을 때 해당 문구로 바꾸어 출력합니디. 이 message의 기본 값은`{javax.validation.constraints.Pattern.message}` 에 설정되어 있는 값 입니다.
 
 이 `message` 옵션은 위의 기본 값 대신 새로운 메세지 값을 설정해주는 것입니다.
 
-하지만 결과는 그대로 
+위의 코드처럼 메세지 옵션에 값을 넣어주었지만 결과는 그대로 
 
 **Must match the regular expression `^(?=.*[0-9])(?=.*[a-z])[a-zA-Z0-9]*$`.**
 
 가 출력되었습니다.
 
-혹시 `message` 의 값이 변경되지 않은 것인지 확인해보기 위하여 `@Pattern` 의 `message` 값을 불러오는 코드를 구현해 보았습니다. 
-
+혹시 `message` 의 값이 변경되지 않은 것인지 확인해보기 위하여 `@Pattern` 의 `message` 값을 불러오는 코드를 구현해 보았습니다. <br>
 다음은 그 예시입니다.
 
 ```java
@@ -122,6 +122,6 @@ public static String message(String property, Class<T> clazz) {
 ```
 
 원하는대로 잘 출력이 되는 것을 확인할 수 있습니다. 
-![요청](https://user-images.githubusercontent.com/56301069/97087498-a1621600-1665-11eb-8c4d-4972291fa701.png)
+![요청 2](https://user-images.githubusercontent.com/56301069/97087498-a1621600-1665-11eb-8c4d-4972291fa701.png)
 
 사용된 모든 코드는 [깃허브](https://github.com/hsik0225/Katalk) 에 있습니다.
