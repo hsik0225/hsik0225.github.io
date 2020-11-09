@@ -3,14 +3,23 @@ main :
   - title : "Home"
     url : "https://hsik0225.github.io/"
 
-
 categories :
-  - title : "SPRING"
+  - title : "Spring Reference"
     children :
       - title : "Spring Framework"
-        url : "/categories/#spring-framework"
+        url : "/categories/#spring-framework-reference"
       - title : "Spring REST Docs"
-        url : "/categories/#spring-rest-docs"
+        url : "/categories/#spring-rest-docs-reference"
+
+  - title : "Spring"
+    children :
+      - title : "Spring Boot"
+        url : "/categories/#spring-boot"
+
+  - title : "Test"
+    children :
+      - title : "AssertJ"
+        url : "/categories/#assert-j"
 
   - title : "PROJECT"
     children :
@@ -18,3 +27,17 @@ categories :
         url : "/categories/#hat"
       - title : "Katalk"
         url : "/categories/#katalk"
+
+  - title : "HTTP"
+    children :
+      - title : "HTTP"
+        url : "/categories/#http"
+
+  - title : "AWS"
+    children :
+      - title : "Code Deploy"
+        url : "/categories/#code-deploy"
+      - title : "AWS CLI"
+        url : "/categories/#aws-cli"
+      - title : "AWS IAM"
+        url : "/categories/#aws-iam"
