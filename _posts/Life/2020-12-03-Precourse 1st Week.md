@@ -91,6 +91,8 @@ public void Add_SingleNumber_ReturnsSameNumber() {
 }
 ```
 
+[인기있는 Java Unit Test 네이밍 규칙](https://hilucky.tistory.com/216)
+
 ### 테스트 정렬
 정렬, 동작, 어설션 은 단위 테스트 시 일반적인 패턴입니다. 
 이름에서 알 수 있듯이 세 가지 주요 작업으로 구성됩니다.
@@ -223,4 +225,10 @@ private User createUser() {
 ## 3. 다른 참가자들
 1주차 프리코스 결과물은 해당 프리코스 깃허브에 풀리퀘를 보내는 형식이기에 다른 참가자들의 풀리퀘를 보며 소스들을 볼 수 있습니다. 
 코드들을 살펴보니 앞서 코딩테스트를 진행했기 때문인지 참가자들의 수준이 높았습니다.
-120명 중 약 50명 정도만을 선발하는 만큼 더 열심히 해야겠습니다. 
+120명 중 약 50명 정도만을 선발하는 만큼 더 열심히 해야겠습니다.
+
+## Reference
+- https://xlffm3.github.io/java/etc/Woowacourse_precourse_baseball/
+- [인기있는 Java Unit Test 네이밍 규칙](https://hilucky.tistory.com/216)
+- [Microsoft Unit Test](https://docs.microsoft.com/ko-kr/dotnet/core/testing/unit-testing-best-practices)
+- [반복문(iteration) vs 재귀(recursion)](ttps://woowacourse.github.io/javable/2020-04-30/iteration_vs_recursion)
