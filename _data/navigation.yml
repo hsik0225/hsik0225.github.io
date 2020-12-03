@@ -4,6 +4,10 @@ main :
     url : "https://hsik0225.github.io/"
 
 categories :
+  - title: "Life"
+    children:
+      - title: "Education"
+        url: "/categories/#education"
   - title : "Spring Reference"
     children :
       - title : "Spring Framework"

@@ -3,11 +3,11 @@ title : "[우테코] 프리코스 1주차 회고"
 
 categories :
 
-- Review
+- Education
 
 tags :
 
-- Review
+- Education
 
 ---
 해당 글은 우테코 프리코스 1주차를 진행하면서 느낀 점과 고민했던 부분을 간단하게 정리한 글입니다.
