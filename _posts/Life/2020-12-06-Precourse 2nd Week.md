@@ -10,7 +10,7 @@ tags :
 - Education
 
 ---
-해당 글은 우테코 프리코스 2주차를 진행하면서 배운 내영을 정리한 글입니다.
+해당 글은 우테코 프리코스 2주차를 진행하면서 배운 내용을 정리한 글입니다.
 
 ## 1. assertThatThrownBy() vs assertThatCode()
 
@@ -44,7 +44,7 @@ assertThatCode(() -> validator.validate(carNames)).doesNotThrowAnyException();
 > if the the provided ThrowableAssert.ThrowingCallable does not raise an exception, an error is immediately thrown, in that case the test description provided with as(String, Object...) is not honored.
 
 
-제공된 ThrowableAssert.ThrowingCallable이 예외를 발생시키지 않으면 즉시 오류가 발생합니다.이 경우 as (String, Object ...)와 함께 제공된 테스트 설명이 적용되지 않습니다.
+제공된 ThrowableAssert.ThrowingCallable이 예외를 발생시키지 않으면 즉시 오류가 발생합니다. 이 경우 as (String, Object ...)와 함께 제공된 테스트 설명이 적용되지 않습니다.
 
 ### 1-2. assertThatCode()
 다음은 **assertThatCode()** 의 javadoc 설명이다.
