@@ -13,10 +13,10 @@ categories :
     children :
       - title: "Java"
         url : "/categories/#java"
-      - title: "Design Pattern"
-        url : "/categories/#design-pattern"
       - title : "Spring Boot"
         url : "/categories/#spring-boot"
+      - title: "Design Pattern"
+        url : "/categories/#design-pattern"
 
   - title : "Library"
     children :
