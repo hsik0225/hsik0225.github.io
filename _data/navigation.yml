@@ -10,14 +10,14 @@ categories :
         url: "/categories/#education"
 
   - title: "Life"
-      children:
-        - title: "Education"
-          url: "/categories/#education"
+    children:
+      - title: "Education"
+        url: "/categories/#education"
 
   - title : "Back-End"
     children :
       - title: "Java"
-          url: "/categories/#java"
+        url : "/categories/#java"
       - title : "Spring Boot"
         url : "/categories/#spring-boot"
 
