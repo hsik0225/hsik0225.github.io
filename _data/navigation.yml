@@ -8,19 +8,20 @@ categories :
     children:
       - title: "Education"
         url: "/categories/#education"
-  - title : "Spring Reference"
-    children :
-      - title : "Spring Framework"
-        url : "/categories/#spring-framework-reference"
-      - title : "Spring REST Docs"
-        url : "/categories/#spring-rest-docs-reference"
 
-  - title : "Spring"
+  - title: "Life"
+      children:
+        - title: "Education"
+          url: "/categories/#education"
+
+  - title : "Back-End"
     children :
+      - title: "Java"
+          url: "/categories/#java"
       - title : "Spring Boot"
         url : "/categories/#spring-boot"
 
-  - title : "Test"
+  - title : "Library"
     children :
       - title : "AssertJ"
         url : "/categories/#assert-j"
@@ -45,3 +46,10 @@ categories :
         url : "/categories/#aws-cli"
       - title : "AWS IAM"
         url : "/categories/#aws-iam"
+
+  - title : "Spring Reference"
+    children :
+      - title : "Spring Framework"
+        url : "/categories/#spring-framework-reference"
+      - title : "Spring REST Docs"
+        url : "/categories/#spring-rest-docs-reference"
