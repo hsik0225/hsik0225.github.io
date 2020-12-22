@@ -8,6 +8,8 @@ categories :
     children:
       - title: "Education"
         url: "/categories/#education"
+      - title: "Book"
+        url: "/categories/#book"
 
   - title : "Back-End"
     children :
