@@ -157,7 +157,7 @@ tags :
 
 - Show Context Actions [`Option + Enter`] : 에러를 해결할 수 있게 도와줌
 
-다음은 흔한 에러 발생 상황인 클래스가 import 되지 않은 상황입니다.
+다음은 흔히 일어나는 클래스가 import 되지 않은 상황입니다.
 
 <img width="384" alt="스크린샷 2021-01-23 오전 4 04 24" src="https://user-images.githubusercontent.com/56301069/105535092-bec08200-5d31-11eb-9115-976d84d69520.png">
 
