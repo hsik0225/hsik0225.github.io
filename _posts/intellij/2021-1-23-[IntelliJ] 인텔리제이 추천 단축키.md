@@ -18,7 +18,7 @@ tags :
 
 [https://ko.wikipedia.org/wiki/커서_(사용자_인터페이스)](https://ko.wikipedia.org/wiki/%EC%BB%A4%EC%84%9C_(%EC%82%AC%EC%9A%A9%EC%9E%90_%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4))
 
-# Editor Actions
+## 1. Editor Actions
 - Delete Line [`Command + Backspace`] : 캐럿이 위치한 줄 제거
 - Duplicate Line or Selection [`Command + D`] : 캐럿이 위치한 줄 혹은 블럭을 한 줄 아래에 복제
 
@@ -39,13 +39,13 @@ tags :
 - Extend Selection [`Option + ⭡`] : 선택 확장
 - Shrink Selection [`Option + ⭣`] : 선택 축소
 
-# Main Menu
+## 2. Main Menu
 
-### File
+### 2-1. File
 
 - Preferences [`Command + ,`] : 설정
 
-### Edit
+### 2-2. Edit
 
 - Cut [`Command + X`] : 잘라내기
 - Copy [`Commad + C`] : 복사
@@ -57,7 +57,7 @@ tags :
 - Indent Selection [`Tab`] : 들여쓰기
 - Unindent Line or Selection [`Shift + Tab`] : 들여쓰기 제거
 
-### View
+### 2-3. View
 
 - Quick Definition [`Command + Y`] : 클래스 구성을 빠르게 확인
 - Parameter Info [`Command + P`]  : 메소드의 파라미터 정보를 보여줌
@@ -69,7 +69,7 @@ tags :
 
 - Recent Files [`Command + E`] : 최근 사용한 파일 목록
 
-### Navigate
+### 2-4. Navigate
 
 - Next Highlited Error [`F2`] : 경고 위치로 이동
 - Next Method [`Ctrl + ⭣`] : 다음 메소드로 이동
@@ -77,7 +77,7 @@ tags :
 - Go to Test [`Shift + Command + T`] : 관련 테스트 코드로 이동
 - File Structure [`Command + F12`] : 해당 파일 구조를 보여줌
 
-### Code
+### 2-5. Code
 
 - Generate [`Command + N`] : 생성자, Getter/Setter 등 여러 가지 생성 가능
 - Code Completion - SmartType [`Shift + Control + Space`] : 자동 완성
@@ -102,7 +102,7 @@ tags :
 
 - Move Statement Up [`Shift + Command + ⭡`] : 해당 줄과 윗줄을 교체
 
-### Refactor
+### 2-6. Refactor
 
 - Refactor This.. [`Contrl + T`]  : 리팩토링 기능 목록
 - Rename... [`Shift + F6`] : 이름 변경, 해당 파일에서만이 아니라 사용하는 모든 곳에서 이름이 변경된다
@@ -131,28 +131,28 @@ tags :
 <img width="446" alt="스크린샷 2021-01-23 오전 3 33 56" src="https://user-images.githubusercontent.com/56301069/105535083-be27eb80-5d31-11eb-9872-5957231e6439.png">
 
 
-### Run
+### 2-7. Run
 
 - Run [`Control + R`] : 실행
 - Run context configuration [`Shift + Control + R`] : 현재 파일의 main 메소드 실행
 - Stop [`Command + F2`] : 중지
 
-### Git
+### 2-8. Git
 
-- Commit [Command + K] : 커밋
-- Push [Shift + Command + K] : 푸시
+- Commit [`Command + K`] : 커밋
+- Push [`Shift + Command + K`] : 푸시
 
-### Window
+### 2-9. Window
 
-- Hide All Tool Windows [Shfit + Command + F12] : 모든 도구 숨김
-- Split Right [단축키 지정 필요] : 세로로 창 분할
-- Unspli All [단축키 지정 필요] : 모든 창 통합
+- Hide All Tool Windows [`Shift + Command + F12`] : 모든 도구 숨김
+- Split Right [`단축키 지정 필요`] : 세로로 창 분할
+- Unspli All [`단축키 지정 필요`] : 모든 창 통합
 
-### Help
+### 2-10. Help
 
 - Find Action... [`Shift + Command + A`] : 도구 모음
 
-### Others
+## 3. Others
 
 - Show Context Actions [`Option + Enter`] : 에러를 해결할 수 있게 도와줌
 
@@ -169,5 +169,7 @@ tags :
 import class 를 누르면 자동으로 필요한 클래스가 import 됩니다.
 
 <img width="388" alt="스크린샷 2021-01-23 오전 4 06 51" src="https://user-images.githubusercontent.com/56301069/105535096-bff1af00-5d31-11eb-8a13-bfae6f7f9c2e.png">
+
+
 
 추후 더 좋은 단축키를 찾으면 추가하겠습니다.
