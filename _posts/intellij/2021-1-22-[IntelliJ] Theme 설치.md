@@ -40,7 +40,7 @@ Preferences → Appearance & Behavior → Appearance에서 Monokai Pro (Filter S
 
 ### Atom Material Icons
 
-Rainbow Brackets 을 설치하면 다음 사진과 같이 프로젝트 부분의 아이콘들이 변경됩니다.
+Atom Material Icons 을 설치하면 다음 사진과 같이 프로젝트 부분의 아이콘들이 변경됩니다.
 
 적용 전
 
