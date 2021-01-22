@@ -15,40 +15,17 @@ categories :
     children :
       - title: "Java"
         url : "/categories/#java"
-      - title : "Spring Boot"
-        url : "/categories/#spring-boot"
+      - title : "Spring"
+        url : "/categories/#spring"
       - title: "Design Pattern"
         url : "/categories/#design-pattern"
-
-  - title : "Library"
-    children :
-      - title : "AssertJ"
-        url : "/categories/#assert-j"
-
-  - title : "PROJECT"
-    children :
-      - title : "HAT"
-        url : "/categories/#hat"
-      - title : "Katalk"
-        url : "/categories/#katalk"
 
   - title : "HTTP"
     children :
       - title : "HTTP"
         url : "/categories/#http"
 
-  - title : "AWS"
+  - title : "ETC"
     children :
-      - title : "Code Deploy"
-        url : "/categories/#code-deploy"
-      - title : "AWS CLI"
-        url : "/categories/#aws-cli"
-      - title : "AWS IAM"
-        url : "/categories/#aws-iam"
-
-  - title : "Spring Reference"
-    children :
-      - title : "Spring Framework"
-        url : "/categories/#spring-framework-reference"
-      - title : "Spring REST Docs"
-        url : "/categories/#spring-rest-docs-reference"
+      - title : "IntelliJ"
+        url : "/categories/#intelli-j"
