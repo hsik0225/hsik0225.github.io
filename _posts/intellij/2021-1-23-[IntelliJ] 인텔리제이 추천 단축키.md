@@ -16,7 +16,7 @@ tags :
 
 문자 커서 참조
 
-[https://ko.wikipedia.org/wiki/커서_(사용자_인터페이스)](https://ko.wikipedia.org/wiki/%EC%BB%A4%EC%84%9C_(%EC%82%AC%EC%9A%A9%EC%9E%90_%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4))
+- [https://ko.wikipedia.org/wiki/커서_(사용자_인터페이스)](https://ko.wikipedia.org/wiki/%EC%BB%A4%EC%84%9C_(%EC%82%AC%EC%9A%A9%EC%9E%90_%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4))
 
 ## 1. Editor Actions
 - Delete Line [`Command + Backspace`] : 캐럿이 위치한 줄 제거
@@ -24,7 +24,7 @@ tags :
 
 <img width="495" alt="1" src="https://user-images.githubusercontent.com/56301069/105535044-b5cfb080-5d31-11eb-8f84-963cb13464c1.png">
 
-위 사진과 같이 복제하고 싶은 라인에 캐럿을 위치한 후 `Command + D` 를 입력하면 다음 사진과 같이 라인이 복제된다.
+위 사진과 같이 복제하고 싶은 라인에 캐럿을 위치한 후 `Command + D` 를 입력하면 다음 사진과 같이 라인이 복제됩니다.
 
 <img width="490" alt="2" src="https://user-images.githubusercontent.com/56301069/105534931-8d47b680-5d31-11eb-9507-0a442cf7c386.png">
 
@@ -62,7 +62,7 @@ tags :
 - Quick Definition [`Command + Y`] : 클래스 구성을 빠르게 확인
 - Parameter Info [`Command + P`]  : 메소드의 파라미터 정보를 보여줌
 
-다음 사진과 같이 파라미터를 입력하는 곳에 캐럿을 두고 `Command + P` 를 입력하면 어떤 파라미터가 와야하는지 보여준다.
+다음 사진과 같이 파라미터를 입력하는 곳에 캐럿을 두고 `Command + P` 를 입력하면 어떤 파라미터가 와야하는지 보여줍니다.
 
 <img width="466" alt="스크린샷 2021-01-23 오전 2 33 10" src="https://user-images.githubusercontent.com/56301069/105535066-bb2cfb00-5d31-11eb-8d41-5bb79d5e69cb.png">
 
@@ -83,11 +83,11 @@ tags :
 - Code Completion - SmartType [`Shift + Control + Space`] : 자동 완성
 - Surround With.. [`Option + Command + T`] : 해당 라인을 감쌀 수 있는 여러 목록을 보여줌
 
-원하는 라인에 캐럿을 둔 후 `Option + Command + T` 를 입력하면 사진과 같이 여러 목록들이 출력된다. 사진에선 mainController에 캐럿을 두었다.
+원하는 라인에 캐럿을 둔 후 `Option + Command + T` 를 입력하면 사진과 같이 여러 목록들이 출력됩니다. 사진에선 mainController에 캐럿을 두었습니다.
 
 <img width="519" alt="스크린샷 2021-01-23 오전 3 00 48" src="https://user-images.githubusercontent.com/56301069/105535067-bb2cfb00-5d31-11eb-8e95-66ff17389f89.png">
 
-6번 try/catch를 선택하면 다음과 같이 해당 라인이 try/catch 문으로 감싸진다.
+6번 try/catch를 선택하면 다음과 같이 해당 라인이 try/catch 문으로 감싸집니다.
 
 <img width="501" alt="스크린샷 2021-01-23 오전 3 02 58" src="https://user-images.githubusercontent.com/56301069/105535071-bbc59180-5d31-11eb-9cae-425d184737ab.png">
 
@@ -96,7 +96,7 @@ tags :
 - Reformat File [`Shift + Option + Command + L`] : 코드를 정리
 - Move Statement Down [`Shift + Command + ⭣`] : 해당 줄과 아랫줄을 교체
 
-위의 사진에서 mainController.run() 에 캐럿을 둔 후 `Shift + Command + ⭣` 를 입력하면 다음 사진과 같이 된다.
+위의 사진에서 mainController.run() 에 캐럿을 둔 후 `Shift + Command + ⭣` 를 입력하면 다음 사진과 같이 됩니다.
 
 <img width="504" alt="스크린샷 2021-01-23 오전 3 10 29" src="https://user-images.githubusercontent.com/56301069/105535075-bc5e2800-5d31-11eb-9e47-a480870c56a2.png">
 
@@ -105,7 +105,8 @@ tags :
 ### 2-6. Refactor
 
 - Refactor This.. [`Contrl + T`]  : 리팩토링 기능 목록
-- Rename... [`Shift + F6`] : 이름 변경, 해당 파일에서만이 아니라 사용하는 모든 곳에서 이름이 변경된다
+- Rename... [`Shift + F6`] : 이름 변경, 해당 파일에서만이 아니라 사용하는 모든 곳에서 이름이 변경됩니다
+  
 
 - Introduce Variable... [`Option + Command + V`] : 해당 변수를 지역 변수로 변경
 - Introduce Constant... [`Option + Command + C`] : 해당 변수를 상수로 변경
