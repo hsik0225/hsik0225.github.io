@@ -29,3 +29,5 @@ categories :
     children :
       - title : "IntelliJ"
         url : "/categories/#intelli-j"
+      - title: "Git"
+        url: "/categories/#git"
