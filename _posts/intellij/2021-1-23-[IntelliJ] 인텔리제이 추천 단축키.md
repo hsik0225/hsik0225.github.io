@@ -1,5 +1,5 @@
 ---
-title : "[IntelliJ] 인텔리제이 추천 단축키"
+title : "[IntelliJ] 자주쓰는 단축키 정리"
 
 categories :
 
