@@ -10,8 +10,6 @@ tags :
 - Book
 ---
 
-![image](https://user-images.githubusercontent.com/56301069/105030283-ec3dcf00-5a96-11eb-9cda-a121748f7098.png)
-
 자바 입문자를 넘어, 그 다음 단계로 가고 싶다면 이펙티브 자바를 읽어보는 것이 좋다는 이야기를 주변 사람들에게서 많이 들어 이 책을 읽기 시작했다. 
 
 저자는 조슈아 블로크(Joshua Bloch)이다. Java 소스 코드를 보다보면 Author에서 종종 만나는 인물로, Java 
