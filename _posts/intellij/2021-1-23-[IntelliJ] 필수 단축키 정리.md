@@ -1,5 +1,5 @@
 ---
-title : "[IntelliJ] 필수 단축키 정리"
+title : "[IntelliJ] 필수 단축키 정리(Mac + Windows)"
 
 categories :
 
