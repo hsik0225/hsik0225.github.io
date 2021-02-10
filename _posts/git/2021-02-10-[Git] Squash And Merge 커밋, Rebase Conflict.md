@@ -13,7 +13,7 @@ tags :
 
 사진과 같이 기존 기능을 작성하고 있던 브랜치(`hsik0225`)와 PR로 Merge(Squash & Merge)된 Upstream의 커밋이 있습니다.
 
-<img width="887" alt="1" src="https://user-images.githubusercontent.com/56301069/107473224-ae265d80-6bb3-11eb-8363-00d84c6242e1.png">
+![무제](https://user-images.githubusercontent.com/56301069/107480515-0bc0a700-6bc0-11eb-8dba-d4476590f601.jpg)
 
 사진에서의 `upstream` 브랜치의 머지 커밋을 기존 기능 브랜치(`hsik0225`)에 리베이스를 하려고 하면 충돌이 발생합니다.
 
