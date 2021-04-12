@@ -10,8 +10,6 @@ tags :
 - Logging
 - Spark
 ---
-### 내용
-
 ```
 > Task :WebUIChessApplication.main()
 17:24 DEBUG spark.route.Routes - Adds route: get, /, spark.RouteImpl$1@3498ed
