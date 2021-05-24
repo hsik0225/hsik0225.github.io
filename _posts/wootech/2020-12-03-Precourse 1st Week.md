@@ -8,7 +8,7 @@ categories :
 tags :
 
 - Education
-
+- PreCourse
 ---
 해당 글은 우테코 프리코스 1주차를 진행하면서 느낀 점과 고민했던 부분을 정리한 글입니다.
 
