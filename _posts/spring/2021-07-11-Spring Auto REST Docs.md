@@ -783,21 +783,26 @@ src/main/resources/static/docs/api.html 파일이 생성되지 않는다면, `bu
 
 ---
 
-nohup java -jar 로 어플리케이션을 실행 후, api.html 파일에 접근 시 404 Not Found가 나타난다면, build.gradle를 확인해보세요.
+nohup java -jar 로 어플리케이션을 실행 후, api.html 파일에 접근 시 404 Not Found가 나타난다면, check가 `copyDocument`를 의존하는지 확인 및 assemble과 check를 각각 실행하세요.
 
-api.html 파일을 생성(asciidoctor 후 copyDocument)한 후, jar 파일이 생성되어야 합니다.
-하지만 기본 Gradle의 build는 jar 파일을 먼저 생성한 후, api.html 파일을 생성합니다.
+의존 설정을 안한 build 실행 시 task flow
 
-> 의존 설정을 안한 build 실행 시 task flow
-> 
 ![무제 2](https://user-images.githubusercontent.com/56301069/125197438-9bb26c00-e298-11eb-844b-7c7969b4acb8.jpg)
 
-assemble은 jar를 의존하고 있으며, jar는 jar 파일을 생성합니다. 그러므로 copyDocument가 실행되고, assemble이 실행되어야 합니다. 순서가 뒤바뀌면 api.html이 없는 상태로 jar가 생성된 후, api.htm 파일이 생깁니다.
+api.html 파일을 생성(asciidoctor 후 copyDocument)한 후, 정적 파일이 변경되었으므로`processResources`를 실행해야 합니다.
+하지만 Gradle의 build는 `compileJava` 후 `processResources`를 먼저 한 번 실행하므로, 뒤에서 다시 실행할 수 없습니다, 그러므로 api.html 파일을 생성하는 태스크, jar 파일을 생성하는 태스크가 다음과 같이 각각 실행되어야 합니다.
 
-build.gradle에서 assemble이 copyDocument를 의존하고 있는지 확인해보세요.
-
-```groovy
-assemble {
-    dependsOn copyDocument
-}
 ```
+./gradlew check(or copyDocument)
+./gradlew assemble(or jar)
+```
+
+jar 혹은 bootJar는 jar파일을 생성합니다. copyDocument가 실행되고, assemble이 실행되어야 합니다. 순서가 뒤바뀌면 api.html이 없는 상태로 jar 파일이 생성된 후, api.htm 파일이 생깁니다.
+
+정적 파일이 올바르게 생성되었는지를 확인해보고 싶다면, 터미널에서
+
+```bash
+$ jar xvf *.jar
+```
+
+를 이용해서 `BOOT-INF` 패키지를 확인해보세요.
