@@ -21,6 +21,8 @@ categories :
         url : "/categories/#design-pattern"
       - title: "Library"
         url : "/categories/#library"
+      - title: "Error"
+        url : "/categories/#error"
 
   - title : "HTTP"
     children :

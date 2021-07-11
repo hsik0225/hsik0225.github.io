@@ -2,10 +2,11 @@
 title : "[Spring REST Docs Reference] Spring REST Docs"
 
 categories :
-  - Spring REST Docs Reference
+- Spring
 
 tags :
-  - Spring REST Docs Reference
+- Spring
+- Spring REST Docs Reference
 ---
 
 오역이 있을 수 있습니다. [원문](https://docs.spring.io/spring-restdocs/docs/2.0.5.RELEASE/reference/html5/) 을 꼭 한 번 읽어주시기 바랍니다. 
