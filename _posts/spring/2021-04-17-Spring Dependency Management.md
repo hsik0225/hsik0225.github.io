@@ -59,4 +59,3 @@ dependencyManagement {
 
 - [https://docs.spring.io/dependency-management-plugin/docs/current/reference/html/](https://docs.spring.io/dependency-management-plugin/docs/current/reference/html/)
 - [https://docs.spring.io/spring-boot/docs/2.4.4/gradle-plugin/reference/htmlsingle/](https://docs.spring.io/spring-boot/docs/2.4.4/gradle-plugin/reference/htmlsingle/)
-- [https://dingue.tistory.com/17](https://dingue.tistory.com/17)

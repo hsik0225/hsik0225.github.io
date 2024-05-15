@@ -392,9 +392,3 @@ public class EventService {
 따라서 (2) 번같은 경우는 지역변수나, 메서드의 매개변수로 이용하여 스레드가 공유 불가능한 스택 영역(Stack Area) 에 저장되도록하여 Thread-safe 를 보장하게끔 만들어 줘야 합니다.
 
 즉, 싱글턴이라해도 메서드 파라미터나, 메서드 안에서 생성되는 로컬변수는 메서드가 호출될 때마다 매번 새로 할당되므로, 여러 스레드가 변수의 값을 덮어쓸 일은 없습니다.
-
-### Reference
-- [싱글턴 패턴](h[ttps://medium.com/webeveloper/싱글턴-패턴-singleton-pattern-db75ed29c36](https://medium.com/webeveloper/%EC%8B%B1%EA%B8%80%ED%84%B4-%ED%8C%A8%ED%84%B4-singleton-pattern-db75ed29c36))
-- [자바 싱글톤 패턴]([https://commin.tistory.com/121](https://commin.tistory.com/121))
-- [싱글톤 패턴의 모든 것]([https://javaplant.tistory.com/21](https://javaplant.tistory.com/21))
-- [싱글톤 패턴]([https://blog.seotory.com/post/2016/03/java-singleton-pattern](https://blog.seotory.com/post/2016/03/java-singleton-pattern))

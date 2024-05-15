@@ -89,6 +89,4 @@ Controller, Service, Repository는 자신의 상태를 관리하는 로직을 �
 
 ## Reference
 
-- [MVC 패턴]([https://m.blog.naver.com/jhc9639/220967034588](https://m.blog.naver.com/jhc9639/220967034588))
-- [모델-뷰-컨트롤러]([https://ko.wikipedia.org/wiki/모델-뷰-컨트롤러](https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%8D%B8-%EB%B7%B0-%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC))
 - [MVC 패턴]([https://dinfree.com/lecture/backend/javaweb_3.1.html](https://dinfree.com/lecture/backend/javaweb_3.1.html))

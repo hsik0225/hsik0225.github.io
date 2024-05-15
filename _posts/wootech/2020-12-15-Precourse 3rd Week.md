@@ -327,5 +327,4 @@ TODO 코멘트는 이를 유발하게 수정사항 혹은 추가 작업이 필�
 
 ### Reference
 - [Java Set Collection Tutorial and Examples](https://www.codejava.net/java-core/collections/java-set-collection-tutorial-and-examples)
-- [Java HashMap은 어떻게 동작하는가?]([https://d2.naver.com/helloworld/831311](https://d2.naver.com/helloworld/831311))
 - [깃(Git) 커밋 가이드](https://tech.10000lab.xyz/git/git-commit-discipline.html)
