@@ -78,7 +78,4 @@ static 메소드는 컴파일 시점에 선언된 타입의 메소드를 호출�
 ### Reference
 
 - [Can we Overload or Override static methods in java ?](https://www.geeksforgeeks.org/can-we-overload-or-override-static-methods-in-java/](https://www.geeksforgeeks.org/can-we-overload-or-override-static-methods-in-java/))
-- [Overriding Vs Hiding - Override Static Method]([https://ohgyun.com/242](https://ohgyun.com/242))
 - [[Static 메소드와 Override hiding에 대한 정리](https://wedul.site/457)](https://www.geeksforgeeks.org/can-we-overload-or-override-static-methods-in-java/)
-- [자바 오버라이딩(Overriding)에 제대로 이해하기 - 고급편 (static, hiding 기법 )]([https://blog.naver.com/gngh0101/221206214829](https://blog.naver.com/gngh0101/221206214829))
-- [스태틱 메소드 상속]([https://velog.io/@cchloe2311/Java-static-method-상속](https://velog.io/@cchloe2311/Java-static-method-%EC%83%81%EC%86%8D))

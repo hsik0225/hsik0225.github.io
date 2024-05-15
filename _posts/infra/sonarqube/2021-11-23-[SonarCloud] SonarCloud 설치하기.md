@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "[SonarCloud] 소나클라우드로 PR에서 코드 분석 결과 확인하기"
-categories: [Infra, SonarCloud]
 ---
 
 소나클라우드는 클라우드 기반 코드 분석 서비스입니다.

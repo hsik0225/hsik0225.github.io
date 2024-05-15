@@ -86,7 +86,3 @@ Controller, Service, Repository는 자신의 상태를 관리하는 로직을 �
 스프링에선 주로 Service layer 필드를 가진다. 하지만 Service도 별도의 상태를 가지고 있진 않다. 스프링의 컨트롤러가 자신의 필드인 Service가 현재 어떤 상태인지 고려하여 사용을 하지 않는다.
 
 또, 컨트롤러가 필드를 갖고 있다면 같은 API, 파라미터로 요청을 해도 요청마다 필드가 변할 수 있기 때문에 멱등성을 유지하지 못할 수 있다.
-
-## Reference
-
-- [MVC 패턴]([https://dinfree.com/lecture/backend/javaweb_3.1.html](https://dinfree.com/lecture/backend/javaweb_3.1.html))

@@ -25,6 +25,3 @@ $ ssh-copy-id -i ~/.ssh/id_rsa.pub seed@192.168.1.68
 # 이제 다시 ssh 접속을 하면 비밀번호 없이 접속된다.
 ssh -C seed@192.168.1.68
 ```
-
-# Reference
-- [http://oniondev.egloos.com/10022984](http://oniondev.egloos.com/10022984)
