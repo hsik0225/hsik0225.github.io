@@ -69,8 +69,6 @@ SonarCloud는 GitHub Public Repository에 한해서 무료로 이용할 수 있�
 그래서 커버리지를 보고 싶다면 CI Tool을 이용하여 소나큐브로 코드를 분석한다음 PR에 댓글로 달아주어야 합니다.
 
 다음 링크들에서 사용하는 CI Tool에 맞는 소나클라우드 PR 데코레이션 방법을 확인해주세요.
-- [Jenkins와 SonarCloud를 연동하여 PR 데코레이션]()
-- [GitHub Actions와 SonarCloud를 연동하여 PR 데코레이션]()
 
 # Reference
 - [https://sonarcloud.io/documentation/](https://sonarcloud.io/documentation/)

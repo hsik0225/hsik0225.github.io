@@ -135,8 +135,6 @@ $ ./gradlew sonarqube \
 
 다음 링크들에서 CI/CD 도구에 맞는 연동 방법을 확인할 수 있습니다.
 
-- [[Jenkins] Jenkins와 SonarQube 연동하기]()
-
 # Reference
 
 - [https://docs.sonarqube.org/latest/](https://docs.sonarqube.org/latest/)
